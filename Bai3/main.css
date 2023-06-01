@@ -1,0 +1,140 @@
+body{
+    background: white;
+}
+.container{
+    max-width: 960px;
+    margin: 0px auto;
+}
+.header{
+    background-color: rgb(255, 247, 236);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.main-menu{
+    display: flex;
+    list-style: none;
+    
+}
+.main-menu a{
+    text-decoration: none;  
+    color: rgb(75, 67, 65);
+    font-weight: 800;
+    font-size: 20px;
+}
+.main-menu li {
+    display: block;
+    color: black;
+    padding: 0px 20px;
+    margin:  auto 0px;
+    
+}
+.search{
+    width: 300px;
+    height: 30px;
+    margin: auto 0px;
+}
+#btn{
+    width: 50px;
+    height: 36px;
+    margin: auto 0px;
+    background-color: white;
+   border: 1px solid;
+    
+    
+}
+#btn:hover{
+    background-color: coral;
+}
+.content-poster{
+    position: relative;
+}
+.image {
+    display: block;
+    width: 100%;
+  }
+  
+  /* .text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(24, 24, 24);
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  } */
+  .text-h{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(45, 33, 30);
+    font-size: 30px;
+    text-align:center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+.main-list{
+    display: flex;
+}
+.main-content h3{
+    font-size: 30px;
+    color:rgb(45, 33, 30) ;
+}
+.main-content p{
+    font-size: 18px;
+    color:rgb(45, 33, 30)  ;
+}
+.main-header{
+    flex-basis: 80%;
+    text-align: center;
+    margin: 0px 40px;
+}
+.main-right{
+    flex-basis: 20%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.main-img{
+    width: 300px;
+}
+.mid-content{
+    display: flex;
+    background-color: rgb(48, 47, 46);
+    color: white;
+   
+}
+
+.content-header{
+   flex-basis: 47%;
+    margin-left: 20px;
+    
+}
+.content{
+    flex-basis: 18%;
+    
+    
+}
+.right-content{
+    flex-basis: 25%;
+    
+}
+.footer-content{
+    flex-basis: 10%;
+
+}
+.main-footer{
+    text-align: center;
+}
+  .footer-boottom{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding:2px 0px;
+    background-color: rgb(29, 28, 28);
+  }

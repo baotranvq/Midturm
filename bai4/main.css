@@ -1,31 +1,40 @@
-#form {
+.header {
+    
     position: flex;
     left: 0;
     right: 0;
     top: 0;
     border: 0;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(103, 167, 209, 0.3);
     align-items: center;
     justify-content: center;
     display: flex;
     height: 500px;
 }
+.header-title{
+    color: rgb(159, 87, 35);
+    text-align: center;
+    font-size: 40px;
+    
+}
 
-#form .form-text {
+.header-form {
     padding: 0 40px;
     margin-top: 20px;
 }
-#form .form-text-1 {
-    margin-bottom: 27px;
+.text {
+    color: rgb(179, 115, 72);
+    margin-bottom: 30px;
+    font-weight: 900;
 }
-#form .form-item {
+.form-item {
     display: flex;
     justify-content: center;
     width: 600px;
     height: 400px;
     background-color: #f2f2f2;
 }
-#form .input-item .input-text {
+.main-text {
     display: block;
     width: 400px;
     height: 25px;
@@ -34,41 +43,50 @@
     margin-top: 20px;
 }
 
-#form .input-item .input-gender {
+.input-gender {
     display: inline;
     margin-right: 5px;
 
 }
 
-#form .input-item button {
+.input-item button {
     display: block;
     width: 404px;
     padding: 5px;
     margin-top: 20px;
 }
 
-#form .input-item .input-text-1 {
+.input-comment {
     width: 397px;
     height: 50px;
     margin-top: 5px;
+    
 }
 
-#form .button-item  {
+.button-item  {
     display:flex;
     width: 50px;
     margin-left: 230px;
 }
 
-#form .button-item button {
+ button {
     padding: 20px;
     margin-right: 10px;
 }
 
-#form .button-item-1 {
-    background-color: #4caf50;
+.button-submit {
+    background-color: #92938e;
+    color: #fff;
+    
+}
+.button-reset {
+    background-color: #92938e;
     color: #fff;
 }
-#form .button-item-2 {
-    background-color: red;
-    color: #fff;
+.button-submit:hover{
+    background-color: chocolate;
+}
+    
+.button-reset:hover{
+    background-color: chocolate;
 }

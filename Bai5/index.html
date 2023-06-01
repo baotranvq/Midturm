@@ -1,108 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="./assets/images/spotify.png"
-      type="image/x-icon"
-    />
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <title>Spotify</title>
-    <link rel="stylesheet" href="./assets/css/spotify.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="main.css">
-  </head>
-  <body>
-    <div class="wrapper">
-      <!-- header -->
-      <div class="header">
-        <img
-          src="./assets/images/spotify_logo.png"
-          alt="logo"
-          class="header__img-logo"
-        />
-        <div class="navbar">
-          <ul class="header__nav-list">
-            <li class="header__nav-items">
-              <a href="#" class="header__nav-links">Premium</a>
-            </li>
-            <li class="header__nav-items">
-              <a href="#" class="header__nav-links">Discover</a>
-            </li>
-            <li class="header__nav-items">
-              <a href="#" class="header__nav-links">Help</a>
-            </li>
-            <li class="header__nav-items">
-              <a href="#" class="header__nav-links"><span>Download</span></a>
-            </li>
-          </ul>
-        </div>
-        <div class="hamburger">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-        </div>
-      </div>
-
-      <!-- feature -->
-      <div class="feature__banner">
-        <div class="head-parent">
-          <img src="./assets/images/spotify_bg.png" alt="" class="head-bg" />
-          <div class="head-child">
-            <h1>MUSIC FOR EVERYONE<span>.</span></h1>
-            <p>
-              Spotify is now free on mobile, tablet and computer. Listen to the
-              right music, wherever you are.
-            </p>
-          </div>
-        </div>
-        <div class="feature__questions">
-          <h3>What's on Spotify?</h3>
-        </div>
-      </div>
-
-      <!-- cards -->
-      <div class="cards">
-        <div class="card">
-          <img src="./assets/images/pic2.jpg" alt="" class="card-image" />
-          <div class="card-content">
-            <h3 class="card-title">Millions of Songs</h3>
-            <p class="card-info">There are millions of songs on Spotify</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="./assets/images/pic1.jpg" alt="" class="card-image" />
-          <div class="card-content">
-            <h3 class="card-title">HD Music</h3>
-            <p class="card-info">
-              Listen to music as if you were listening live
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="./assets/images/pic3.jpg" alt="" class="card-image" />
-          <div class="card-content">
-            <h3 class="card-title">Stream Everywhere</h3>
-            <p class="card-info">
-              Stream music on your smartphone, tablet or computer
-            </p>
-          </div>
-        </div>
-      </div>
+</head>
+<body>
+  <div class="header">
+    <div  class="header-img">
+      <img width="311px" src="https://salt.tikicdn.com/ts/upload/eb/f3/a3/25b2ccba8f33a5157f161b6a50f64a60.png" alt="">
     </div>
-
-    <script>
-      hamburger = document.querySelector(".hamburger");
-      hamburger.onclick = function() {
-          navBar = document.querySelector(".navbar");
-          navBar.classList.toggle("active");
-      }
-    </script>
-  </body>
+    <div class="header-form">
+        <div class="login-item">
+            <div class="item-header">
+                <div>
+                    <h2>Xin Chào!</h2>
+                    <p>Đăng nhập hoặc tạo tài khoản </p>
+                </div>
+                <form class="main-form" action="">
+                    Email:<br>
+                    <input type="text" name="user" placeholder="bao.tran@gamil.com">
+                    <br>
+                    Mật Khẩu:<br>
+                    <input type="password" name="psw"placeholder="*********">
+                </form>
+                <button type="submit">Đăng Nhập</button>
+                <ul>
+                    <li><a href="">Quên Mật Khẩu</a></li>
+                    <li>Chưa có tài khoản?<a href="">Tạo tài Khoản</a></li>
+                </ul>
+            </div>
+    </div>
+    </div>
+  </div>
+    
+</body>
 </html>

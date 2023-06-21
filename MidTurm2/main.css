@@ -1,0 +1,249 @@
+
+.header-info{
+    display: flex;
+    max-width: 100%;
+    margin: 0px auto;
+    
+}
+.header-mail{
+    display: flex;
+    border: 1px solid rgb(194, 191, 191);
+    flex-basis: 20%;
+    justify-content: center;
+    align-items: center;
+    border-right: none;
+    
+}
+.header-mail .item-mail{
+    padding: 0px 5px;
+}
+.header-icons a{
+    padding: 0px 10px;
+    color: black;
+}
+.header-center{
+    display: flex;
+    border: 1px solid rgb(194, 191, 191);
+    flex-basis: 50%;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    border-right: none;
+}
+
+.header-langues {
+    border: 1px solid rgb(194, 191, 191);
+    border-right: none;
+}
+.header-login{
+    display:flex;
+    border: 1px solid rgb(194, 191, 191);
+    flex-basis: 15%;
+    align-items: center;
+    justify-content: center;
+}
+.header-login a{
+    text-decoration: none;
+    color: black;
+    
+}
+/* end header top */
+.header-mid{
+    display: flex;
+    max-width: 960px;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+.header-search{
+    display: flex;
+    border: 1px solid rgb(194, 191, 191) ;
+    width: 500px;
+    align-items: center;
+    margin: 20px 0px;
+}
+.search-mid{
+    color:rgb(194, 191, 191) ;
+    padding: 0px 10px;
+}
+#header-option{
+    border: none;
+    height: 45px;
+}
+.search{
+    width: 400px;
+    height: 45px;
+    border: none;
+}
+.header-button{
+    width: 50px;
+    height: 100%;
+    background-color: rgb(232, 116, 73);
+    border: none;
+    color: white;
+}
+.header-button:hover {
+    background-color: rgb(236, 177, 155);
+    color: black;
+}
+.logo-botom {
+    display: flex;
+    align-items: center;
+    
+}
+.logo-botom i{
+    padding: 0px 20px;
+    color: black;
+}
+/* End header Mid */
+
+nav{
+    background-color: rgb(228, 223, 223); 
+}
+.main-menu{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-inline-start: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+.main-menu a{
+    text-decoration: none;
+    color:black;
+    font-weight: 800;
+}
+.main-menu li{
+    padding: 15px 30px;
+}
+.main-menu li:hover{
+    background-color: rgb(81, 79, 78);
+}
+.main-menu a:hover{
+    color: white;
+}
+/* end header */
+
+/* slide show */
+#image{
+    width: 100%;
+    height: 450px;
+    padding: 10px 0px;
+}
+#slideshow button{
+    height: 50px;
+    color: white ;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+#slideshow{
+    position: relative;
+}
+.control{
+    position: absolute;
+    top: 50%;
+    font-size: 40px;
+    transform: translateY(-50%);
+}
+#prevButton{
+    left: 10px;
+}
+#nextButton{
+    right: 10px;
+}
+
+
+
+/* Footer */
+
+.footer-all{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(8, 8, 8);
+    padding-top: 20px;
+}
+.footer-links{
+    display: flex;
+    
+}
+.footer-links a{
+    text-decoration: none;
+    color: white;
+}
+.footer-links li{
+    list-style: none;
+}
+
+.footer-menu1 li{
+    padding: 10px 0px ;
+    font-weight: 900;
+}
+
+.footer-menu2{
+    padding: 0px 70px;
+}
+.footer-menu2 li{
+    padding: 10px 0px ;
+}
+.footer-menu3 li{
+    padding: 10px 0px ;
+}
+#footer-text{
+    font-size: 14px;
+    color: rgb(171, 171, 167) ;
+}
+
+
+
+.footer-icons{
+    display: flex;
+    list-style: none;
+    padding-right: 20px;
+}
+.footer-icons a{
+    padding: 0px 10px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+.footer-location {
+    display: flex;
+    background-color: rgb(8, 8, 8);
+    justify-content: space-between; 
+    align-items: center; 
+    font-size: 14px;
+}
+
+.location{
+    display: flex   ;
+    align-items: center;
+    padding-left: 50px;
+}
+.location-text{
+    color: rgb(171, 171, 167);
+    padding-left: 30px;
+}
+.list {
+    display: flex;
+    
+
+}
+.list li{
+    list-style: none;
+    padding: 0px 20px;
+    
+}
+.list a{
+    text-decoration: none;
+    color: rgb(171, 171, 167);
+}

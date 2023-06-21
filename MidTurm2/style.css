@@ -1,0 +1,78 @@
+ 
+.header-btn{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin: 0px 10px;
+    width: 95%;
+
+}
+.btn-btn{
+    border: none;
+    width: 50%;
+    font-weight: 900;
+    border: none;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.container-fluid{
+    max-width: 100%;
+}
+.row{
+    display: flex;
+    justify-content:left;
+   
+}
+.card{
+    width:30%; 
+    margin: 20px 10px;  
+    
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+}
+.hide{
+    display: none;
+}
+.giay-sang{
+    color: rgb(226, 163, 26);
+    background-color: #FFFFFF;
+    border: none;
+}
+/* Form */
+.input-frame{
+    height: 40px;
+    width: 100%;
+    background-color: #F8FAFD;
+    border: none;
+}
+.input-image{
+    background-color:#007AFF;
+    height: 70px;
+    width: 100%;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.header-left{
+    flex-basis: 80%;
+    
+}
+.container{
+    display: flex;
+    max-width: 100%;
+}
+.form-admin{    
+    flex-basis: 20%;
+    margin: 0px 20px;
+    height: 450px;
+    
+}
+.btn-admin{
+   margin: 0px 20px;
+}
+.card-img-top{
+    height: 300px;
+}

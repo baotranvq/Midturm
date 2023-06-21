@@ -1,0 +1,233 @@
+<!DOCTYPE html>					
+<html>					
+<head>					
+	<title>te</title>				
+	<meta charset="utf-8">				
+	<!-- css -->				
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">				
+		
+	<!-- JS -->																			
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>																			
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>																			
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>																			
+	<!-- js -->																			
+	<link rel="stylesheet" href="style.css">	
+	<link rel="stylesheet" href="main.css">
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>					
+<body >	
+	<div class="wrapper">
+        <div class="header">
+            <div class="header-info">
+                <div class="header-mail">
+                    <i class="item-mail bi bi-envelope-fill"></i>
+                    bao.tran@gmail.com
+                    
+                </div>
+                <div class="header-center">
+                    <div class="phone">
+                        <i class="bi bi-telephone-fill"></i>
+                        +19008090
+                    </div>
+                    <div class="header-icons">
+                        <a title="Facebook" href="#"><i class="bi bi-facebook"></i></a>
+                        <a title="Twitter" href="#"><i class="bi bi-twitter"></i></a>
+                        <a title="Youtube" href="#"><i class="bi bi-youtube"></i></a>
+                        <a title="Tiktok" href="#"><i class="bi bi-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="header-langues">
+                    <select name="langues-option" id="slick" style=" width: 200px; height: 50px; border: none;" title="Ngôn ngữ">
+                        <option value="English" data-image="images/English.jpg" data-title="logo English">English
+                        </option>
+                        <option value="German" data-image="images/Germany.svg" data-title="logo Germany">Germany
+                        </option>
+                        
+                    </select>
+                </div>
+                <div class="header-login">
+                    <a title="Đăng nhập"  href="#"><i class="bi bi-person-fill"></i>Login</a>
+                </div>
+                
+            </div>
+            <div class="header-mid">
+                <div class="header-logo">
+                    <a href="#"><img src="data:image/png;base64,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" width="120px" alt=""></a>
+                </div>
+                <div class="header-search">
+                    <select name="" id="header-option">
+                        <option value="">All Categories</option>
+                        <option value="">New & Featured</option>
+                        <option value="">Shop Icons</option>
+                        <option value="">New Fow Men</option>
+                        
+                    </select>
+                    <p class="search-mid">|</p>
+                    <input class="search" type="text" placeholder="Search...">
+                    <button class="header-button"><i class="bi bi-search"></i></button>
+                </div>
+                <div class="logo-botom">
+                    <a href="#"><i class="bi bi-heart"></i></a>
+                    <a href="#"><i class="bi bi-bag"></i></a>                 
+                </div>
+            </div>
+            <div class="header-menu">
+                <nav class="container">
+                    <ul class="main-menu">
+                        <li><a href="#">New & Featured</a></li>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Kid</a></li>
+                        <li><a href="#">Sale</a></li>
+                        <li><a href="#">SNKRS</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+        <!-- end header  -->
+        <div class="main-content">
+            <!-- <div id="slideshow">
+                <img id="image" src="images/image1.jpg" alt="">
+                <button id="left-btn"><i class="bi bi-chevron-left"></i></button>
+                <button id="right-btn"><i class="bi bi-chevron-right"></i></button>
+            </div> -->
+            <div id="slideshow">
+                <img id="image" src="images/image1.jpg">
+                <button class="control" id="prevButton"><i class="bi bi-chevron-left"></i></button>
+                <button class="control" id="nextButton"><i class="bi bi-chevron-right"></i></button>
+              </div>
+        </div>
+        <!-- end main-content -->
+		<!-- main-mid -->
+		<div class="container">	
+			<div class="header-left">
+				<div class="header-btn">
+					<input id="btn-shoe" type="button" value="GIÀY" class="btn-btn" >	
+					<input id="btn-sandal" type="button" value="DÉP" class="btn-btn" >	
+					<!-- <button id="btn-giay" class="btn-btn">GIÀY</button>
+					<button id="btn-dep" class="btn-btn">DÉP</button> -->
+				</div>	
+			
+				<div class="container-fluid" >				
+					<div  class="row" id="shoe">			
+						
+					</div>			
+				</div>		
+					
+				<div class="container-fluid" >				
+					<div class="row" id="sandal">			
+							
+					</div>			
+				</div>	
+			</div>
+			
+			<form class="form-admin" >
+				<h2>Quản lý sản phẩm</h2>
+				<div>
+					<label > Tên sản phẩm</label>
+					<input class="input-frame" id="txtName" type="text" placeholder="Nhập tên sản phẩm">
+					<span id="errMessage"></span>
+				</div>
+				<div>
+					<label > Giá</label>
+					<input class="input-frame" id="txtPrice" type="text" placeholder="Nhập giá sản phẩm">
+					<span id="errMessage"></span>
+				</div>
+				<div>
+					<label > Loại sản phẩm</label>
+					<select class="input-frame" id="cmbType">
+						<option value="1">shoe</option>
+						<option value="2">sandal</option>
+					</select>
+				</div>
+				<div style="display: none;"	>
+					<label style="display: none;">id</label>
+					<input type="text" id="txtId">
+				</div>
+				<div>
+					<label >Hình ảnh</label>
+					<div class="input-image" >
+						<span>Chọn hình ảnh</span> <br>	 
+						<input id="txtImg" type="file" accept="image/*">
+					</div>
+				</div>
+				<div >
+					<button  id="btn-add" class="btn-admin btn btn-primary mt-3 float-left">Thêm sản phẩm</button>
+                    <input id="btn-update" style="background-color: rgb(234, 177, 7);" class="btn btn-primary mt-3 float-left" type="button" value="Cập nhật">
+                </div>
+		
+			</form>
+		</div>
+		<!-- end main-mid -->
+
+        <div class="footer">
+            <div class="footer-all">
+                <div class="footer-links">
+                    <div class="footer-menu1">
+                        <ul>
+                            <li><a href="#">FIND A STORE</a></li>
+                            <li><a href="#">BECOME A MEMBER</a></li>
+                            <li><a href="#">Send Us Feedback</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-menu2">
+                        <ul>
+                            <li><a style="font-weight: 900;" href="#">GET HELP</a></li>
+                            <li><a id="footer-text" href="#">Order Status</a></li>
+                            <li><a id="footer-text" href="#">Delivery</a></li>
+                            <li><a id="footer-text" href="#">Returns</a></li>
+                            <li><a id="footer-text" href="#">Payment Options</a></li>
+                            <li><a id="footer-text" href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-menu3">
+                        <ul>
+                            <li style="font-weight: 900;"><a href="#">ABOUT NIKE</a></li>
+                            <li><a id="footer-text" href="#">News</a></li>
+                            <li><a id="footer-text" href="#">Careers</a></li>
+                            <li><a id="footer-text" href="#">Investors</a></li>
+                            <li><a id="footer-text" href="#">Sustainability</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div >
+                    <ul class="footer-icons" >
+                        <li><a href=""><i class="bi bi-twitter"></i></a></li>
+                        <li><a href=""><i class="bi bi-facebook"></i></a></li>
+                        <li><a href=""><i class="bi bi-youtube"></i></a></li>
+                        <li><a href=""><i class="bi bi-instagram"></i></a></li>
+                    </ul>
+                </div>
+               
+            </div>
+            
+
+
+
+            <div class="footer-location">
+                <div class="location">
+                    <i style="color: white;" class="bi bi-geo-alt-fill"></i>
+                    <p style="color: white;">VietNam</p>
+                    <p class="location-text" >© 2023 Nike, Inc. All Rights Reserved</p>
+                </div>
+                <div>
+                    <ul class="list">
+                        <li><a href="#">Guides</a></li>
+                        <li><a href="#">Terms of Sale</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Nike Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        <!-- end footer  -->
+    </div>
+
+	
+</body>	
+<script src="dataMen.js"></script>		
+<script src="script.js"></script>		
+</html>					
